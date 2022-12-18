@@ -68,6 +68,4 @@ Route::get('viewpdflist','PdfController@showpdf');  //For displaying the all Use
 Route::post('savepdf','PdfController@save')->name('pdf-save');
 Route::get('newpdf','PdfController@viewform');  //For displaying the all Users
 Route::any('delete-pdf/{id}','PdfController@deletepdf')->name('delete-pdf');
-
-
 });
